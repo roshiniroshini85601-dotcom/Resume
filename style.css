@@ -1,0 +1,61 @@
+
+body{
+    /* margin:0 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: calibri;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    
+}
+.year{
+    display: flex;
+    justify-content: space-between;
+}
+.years{
+    display: flex;
+    justify-content: space-between;
+}
+.change{
+    padding: 10px;
+}
+.tech2 h3{
+    text-decoration: underline;
+
+}
+h2{
+    margin-bottom: 5px;
+}
+hr{
+    margin:0%;
+
+}
+@media all and (min-width:360px){
+    body{
+        font-size: larger;
+    }
+
+}
+@media all and (max-width:426px){
+    body{
+        font-size:small;
+    }
+}
+@media all and (min-width:1440px){
+    body{
+        font-size:x-large;
+    }
+}
+
